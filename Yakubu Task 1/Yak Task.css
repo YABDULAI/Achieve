@@ -3,7 +3,7 @@ html {
 }
 body {
   width: 980px;
-  margin: 20px auto;
+  margin: 0px auto;
 }
 ul {
   margin: 0;
@@ -95,6 +95,9 @@ clear: both;
  #button {
    text-align: center;
  }
+ .send:hover {
+   opacity:0.5
+ }
   article {
     align-content: right;
   }
@@ -114,7 +117,7 @@ clear: both;
           height: 80px;
           width: 980px;
           position: absolute;
-          bottom: 20px;
+          bottom: 0px;
         }
         .footer p {
           font-size: 2rem;
